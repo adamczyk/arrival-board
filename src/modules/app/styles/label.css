@@ -1,0 +1,6 @@
+.label-wrapper {
+  display: flex; }
+  .label-wrapper .label-first {
+    padding-right: 10px; }
+  .label-wrapper .label-second {
+    color: #ffd633; }

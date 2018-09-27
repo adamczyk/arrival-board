@@ -1,0 +1,25 @@
+@import '../../../variables.scss';
+
+.header {
+  padding: $baseline;
+  font-size: $baseline * 2;
+  display: flex;
+  justify-content: space-between;
+
+  .header-title {
+    display: flex;
+    align-items: center;
+
+    ion-icon {
+      padding-right: $baseline;
+    }
+  }
+
+  .header-date {
+    font-size: $baseline;
+    padding-right: $baseline;
+  }
+  .header-clock {
+    color: $primary;
+  }
+}

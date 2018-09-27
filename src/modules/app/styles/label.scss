@@ -1,0 +1,13 @@
+@import '../../../variables.scss';
+
+.label-wrapper {
+  display: flex;
+
+  .label-first {
+    padding-right: $baseline * .5;
+  }
+
+  .label-second {
+    color: $primary;
+  }
+}

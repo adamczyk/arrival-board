@@ -1,0 +1,32 @@
+@import '../../../variables.scss';
+
+.arrival-table {
+  width: 100%;
+  padding: 0 $baseline;
+  border-collapse: collapse;
+
+  th {
+    padding: $baseline 0;
+  }
+
+  tbody {
+    tr {
+      border-top: 1px solid $gray-med;
+    }
+  }
+
+  td {
+    font-size: $baseline;
+
+    &.time {
+      display: inherit;
+      font-size: $baseline * 2;
+      background-color: $gray-dark;
+    }
+
+    &.destination {
+      font-size: $baseline * 1.5;
+      color: $primary;
+    }
+  }
+}

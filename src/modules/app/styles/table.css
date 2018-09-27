@@ -1,0 +1,17 @@
+.arrival-table {
+  width: 100%;
+  padding: 0 20px;
+  border-collapse: collapse; }
+  .arrival-table th {
+    padding: 20px 0; }
+  .arrival-table tbody tr {
+    border-top: 1px solid #8e8e8e; }
+  .arrival-table td {
+    font-size: 20px; }
+    .arrival-table td.time {
+      display: inherit;
+      font-size: 40px;
+      background-color: #3f3f3f; }
+    .arrival-table td.destination {
+      font-size: 30px;
+      color: #ffd633; }
